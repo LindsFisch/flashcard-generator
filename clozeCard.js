@@ -1,0 +1,4 @@
+
+var ClozeCard = function () {
+    
+}
