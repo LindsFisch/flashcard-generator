@@ -1,0 +1,19 @@
+{
+  "name": "flashcardgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CLI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LindsFisch/flashcard-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LindsFisch/flashcard-generator/issues"
+  },
+  "homepage": "https://github.com/LindsFisch/flashcard-generator#readme"
+}
