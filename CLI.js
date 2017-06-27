@@ -34,6 +34,33 @@ if (cardType === "basic") {
     }
 
 } else if (cardType === "cloze") {
+    createCloze();
+    function createCloze () {
+        inquirer.prompt([
+            {
+                name: "fullText",
+                message: "What is the full text of the flash card?"
+            }, {
+                name: "cloze",
+                message: "What is the cloze portion of the flash card?",
+            }, 
+            {
+                type: "confirm", 
+                name: "other",
+                message: "Would you like to create another?", 
+                default: false
+            }
+        ]).then(function (answers){
+            var fullText = answers.fullText;
+            var cloze = answers.cloze;
+
+            var addCloze = new ClozeCard(fullText, cloze);
+
+            if (answers.other) {
+                createCloze();
+            }
+        })
+    }
 
 } else {
     console.log("Please choose a valid card type");
