@@ -1,0 +1,42 @@
+[
+  {
+    "type": "Basic Card",
+    "front": "Who was the 13th president?",
+    "back": "Millard Fillmore"
+  },
+  {
+    "type": "Basic Card",
+    "front": "What is the largest mammal?",
+    "back": "Blue Whale"
+  },
+  {
+    "type": "Basic Card",
+    "front": "How many items in a baker's dozen?",
+    "back": "13"
+  },
+  {
+    "type": "Cloze Card",
+    "partialText": "... degrees F is the boiling point of water",
+    "cloze": "212"
+  },
+  {
+    "type": "Cloze Card",
+    "partialText": "Spiders have ... legs",
+    "cloze": "eight"
+  },
+  {
+    "type": "Cloze Card",
+    "partialText": "The highest point on Earth is ...",
+    "cloze": "Mount Everest"
+  },
+  {
+    "type": "Basic Card",
+    "front": "What was the first computer?",
+    "back": "ENIAC"
+  },
+  {
+    "type": "Cloze Card",
+    "partialText": "... invented the lightbulb",
+    "cloze": "Thomas Edison"
+  }
+]
