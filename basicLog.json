@@ -38,5 +38,20 @@
     "type": "Cloze Card",
     "partialText": "... invented the lightbulb",
     "cloze": "Thomas Edison"
+  },
+  {
+    "type": "Basic Card",
+    "front": "What number comes after four?",
+    "back": "five"
+  },
+  {
+    "type": "Cloze Card",
+    "partialText": "... is the color of the ocean",
+    "cloze": "Blue"
+  },
+  {
+    "type": "Cloze Card",
+    "partialText": "... is the color of the skye",
+    "cloze": "blue"
   }
 ]

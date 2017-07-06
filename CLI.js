@@ -69,8 +69,8 @@ if (answers.cardType === "Create a Basic Card") {
                 default: false
             }
         ]).then(function (answers){
-            var fullText = answers.fullText;
-            var cloze = answers.cloze;
+            var fullText = answers.fullText.toLowerCase();
+            var cloze = answers.cloze.toLowerCase();
             
             if (fullText.includes(cloze)){  //create partial text of card with input from user
                 var partial = fullText.replace(cloze, '...');
